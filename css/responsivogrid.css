@@ -1,0 +1,82 @@
+@media  screen and  (max-width: 900px) {
+    .div2,.div3,.div4,.div5 {
+        display:none;
+    }
+    .div1 {
+    background-size: cover;
+   background-position: center;
+}
+   .divpai {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    grid-gap: 5px;
+}
+.div1 {
+   background-position: center;
+   background-size: cover;
+   grid-column: 1 / 5;
+}
+
+.ul2 li {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.fortnite {
+    
+    border: solid 2px rgb(199, 27, 27);
+}
+}
+@media  screen and (max-width: 900px) {
+    .div11,.div10 {
+        display: none;
+    }
+    .main {
+        display: grid;
+        grid-template-columns: 30% 30% 29%;
+        grid-gap:40px;
+    }
+    .div9 {
+       background-size: cover; 
+        margin-right: 15px;
+    }
+    .div8 {
+        background-size: cover; 
+    }
+    .visualizar_todos_filho {
+        display: none;
+    }
+    .visualizar_todos {
+        display: none;
+    }
+    .visualizar_aplicativos_filho {
+        display: none;
+    }
+    .visualizar_aplicativos {
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .div9 {
+        display: none;
+    }
+    .main {
+        display: grid;
+        grid-column: 50% 50%;
+        grid-gap: 1px;
+    }
+    .div7 {
+       grid-column: 1;
+       width: 35vh;
+    }
+    .div8 {
+        grid-column: 3;
+        width: 35vh;
+    
+    }
+    .texto {
+        top:-50px;
+        margin-right: 15px;
+    }
+}
